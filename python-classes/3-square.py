@@ -1,27 +1,27 @@
 #!/usr/bin/python3
-"""eefvuyfvf"""
+"""erjhhfnrgbrg"""
 
 
 class Square:
-    """egefgesrgser"""
-
+    """etgbdtbdrtbf"""
     def __init__(self, size=0):
-        """vsfgsfgsf"""
-        self.__size = size
+        """hntfhbnhgn btf"""
+        self.size = size
 
     @property
     def size(self):
-        """sdcfgvbhnjk"""
+        """thgfbgbnfg"""
         return self.__size
 
     @size.setter
     def size(self, value):
-        """afdfsdf"""
+        """unhbgvfdcsx"""
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
         if value < 0:
             raise ValueError("size must be >= 0")
+        self.__size = value
 
     def area(self):
-        """egefgfgs"""
+        """kjuyrtgfcd"""
         return self.__size ** 2
